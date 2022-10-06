@@ -9,14 +9,15 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content:center;
-    
     list-style: none;
-    margin: 10px; 
+    margin: 10px;
     background-color: #BAAA80;
     box-shadow: 0px 0px 0px 3px #412624, 0px 0px 0px 10px #8b785b, 0px 0px 0px 15px #624e3c, 0px 0px 0px 18px #412624, 0px 3px 0px 18px rgb(0 0 0 / 19%); 
   }
   
   .navigation a {
+    margin-top: -2px;
+    margin-bottom: -2px;
     text-decoration: none;
     display: block;
     padding: 1em;
@@ -29,7 +30,7 @@ body{
   .navigation a:hover {
     background: #8B785B ;
     color: white;
-    border: solid black 2px;
+    border: solid #412624 2px;
   }
   
   @media all and (max-width: 800px) {
