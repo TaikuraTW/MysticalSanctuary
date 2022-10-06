@@ -4,13 +4,19 @@ body{
   background-attachment: fixed;
 }
 
+@font-face {
+    font-family: 'CubeFont';
+    src: url('../assets/fonts/BasaltRegular-Jx3o.ttf') format('truetype');
+}
+
 .navigation {
+    font: 1.5em CubeFont;
     display: flex;
     flex-flow: row wrap;
     justify-content:center;
     list-style: none;
     margin: 10px;
-    background-color: #BAAA80;
+    background: #BAAA80;
     box-shadow: 0px 0px 0px 3px #412624, 0px 0px 0px 10px #8b785b, 0px 0px 0px 15px #624e3c, 0px 0px 0px 18px #412624, 0px 3px 0px 18px rgb(0 0 0 / 19%); 
   }
   
@@ -21,10 +27,10 @@ body{
     text-transform: uppercase;  
     font-weight: bold;
     display: block;
-    padding: 1em;
+    padding: 0.5em;
     color: black;
-    transition: background-color 0.3s ease-out 0.03s;
-    transition: border-box 0.3s ease-out 0.03s;
+    transition: background 0.3s ease-out 0.03s;
+    transition: border 0.3s ease-out 0.03s;
     border: solid transparent 2px;
   }
   
