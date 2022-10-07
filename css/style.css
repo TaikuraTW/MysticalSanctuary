@@ -2,6 +2,8 @@ body{
   background-image: url("../assets/main_bg.png");
   background-size: cover;
   background-attachment: fixed;
+  scrollbar-color: #412624;
+  scrollbar-base-color: #8B785B;
 }
 
 @font-face {
@@ -66,6 +68,9 @@ body{
     margin-left: 20%;
     margin-right: 20%;
     padding-bottom: 50%;
+    text-align: justify;
+    padding-left: 3%;
+    padding-right: 3% ;
     margin-top: 120px;
     background-color: #BAAA80;
     box-shadow: 0px 0px 0px 3px #412624, 0px 0px 0px 10px #8b785b, 0px 0px 0px 15px #624e3c, 0px 0px 0px 18px #412624, 0px 3px 0px 18px rgb(0 0 0 / 19%);
